@@ -1,0 +1,15 @@
+checks:
+  - column: Name
+    type: not_null
+
+  - column: Age
+    type: not_null
+
+  - column: Age
+    type: positive
+
+  - column: Email
+    type: email
+
+  - column: Email
+    type: unique
